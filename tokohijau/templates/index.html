@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="header">
+        <div class="app">
+            <i class="fa-solid fa-mobile"></i>
+            <p class="bol">Gratis Ongkir + Banyak Promo</p>
+            <p>belanja di aplikasi ></p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Tentang Tokopedia</a></li>
+                <li><a href="#">Mulai Berjualan</a></li>
+                <li><a href="#">Promo</a></li>
+                <li><a href="#">Tokopedia Care</a></li>
+            </ul>
+    </div>
+    <div class="navbare">
+        <div class="logdiv">
+            <img src="{{ url_for('static', filename='img/tokped.svg') }}" alt="Logo" width="100" class="logo">
+        </div>
+        <button class="categ">Kategori</button>
+        <form class="searchbox">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Cari Di Tokopedia">
+        </form>
+        <button class="cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        <div class="lining">|</div>
+        <div>
+            <button class="masuk">Masuk</button>
+            <button class="daftar">Daftar</button>
+        </div>
+    </div>
+    <div class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <p>Dikirim ke</p>
+        <p class="ct">Jakarta pusat</p>
+        <p class="pnh">></p>
+    </div>
+</body>
+</html>

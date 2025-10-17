@@ -1,0 +1,196 @@
+*, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f4f7;
+    height: 32px;
+    padding: 0px;
+}
+
+.app {
+    display: flex;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #5b5c5d;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #03ac0e;
+}
+
+.app{
+    height: 100%;
+    width: 26em;
+    padding: 1.2em 0em;
+    text-align: center;
+    align-items: center;
+    border-radius: 3em;
+    transition: all 0.3s ease;
+}
+
+.app:hover{
+    background-color: #00df0f;
+    color:#ffffff;
+}
+
+.bol {
+    margin: 0px 4px;
+    font-weight: bold;
+}
+
+/* bagian navbar */
+
+.navbare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    gap: 15px;
+    border-bottom: 2.5px solid #f2f4f7;
+}
+
+.searchbox {
+    display: block;
+    width: 70%;
+    height: 40px;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.searchbox input {
+    border: none;
+    box-shadow: none;
+    
+    width: 90%;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.searchbox input:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+.fa-magnifying-glass {
+    color : rgb(117, 117, 117);
+}
+
+.categ {
+    font-weight: 600;
+    border: 0px;
+    height: 35px;
+    width: 5.9em;
+    border-radius: 9px;
+    font-size: 16px;
+    background-color: white;
+    transition: all 0.3s ease;
+
+}
+
+.categ:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+.cart-btn {
+    font-size: 18px;
+    background-color: white;
+    width: 55px;
+    height: 35px;
+    border-radius: 9px;
+    border: 0px;
+    transition: all 0.3s ease;
+}
+
+.cart-btn:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+.masuk {
+    background-color: white;
+    border : 1px solid rgb(0, 170, 91);
+    color: #00aa5b;
+    font-size: 14px;
+    font-weight: bold;
+    height: 31px;
+    width: 75px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.lining {
+    color : rgb(117, 117, 117);
+}
+
+.daftar {
+    background-color: #00aa5b;
+    border : 1px solid rgb(0, 170, 91);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 31px;
+    width: 75px;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.logo {
+  width: 145px;
+  height: 38px;
+  padding: 7px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.3em;
+    width: 100%;
+    padding-right: 1em;
+    cursor: pointer;
+}
+
+.fa-location-dot {
+    font-size: 15px;
+}
+
+.location p {
+    font-size: 13px;
+}
+
+.ct {
+    font-weight: bold;
+}
+
+.pnh {
+    rotate: 90deg;
+}
